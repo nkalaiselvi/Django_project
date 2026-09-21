@@ -1,0 +1,106 @@
+.offers-section {
+  background: #FFFFFF;
+  padding: 60px 40px;
+}
+
+.offers-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.offer-card {
+  flex: 1 1 480px;
+  min-height: 240px;
+  border-radius: 10px;
+  padding: 45px 35px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Left — light purple */
+.offer-light {
+  background: linear-gradient(135deg, #c4b5f0 0%, #8a6fc4 100%);
+  color: #fff;
+  border: 3px solid #d4af37;
+}
+
+.offer-light::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(255, 215, 100, 0.7);
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+/* Right — dark brown */
+.offer-dark {
+  background: linear-gradient(135deg, #4a2c1a 0%, #1a0d05 100%);
+  color: #fff;
+  border: 3px solid #d4af37;
+}
+
+.offer-dark::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(255, 215, 100, 0.5);
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+/* Text */
+.offer-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 14px;
+  position: relative;
+  z-index: 1;
+}
+
+.offer-heading span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.offer-sub {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #f0e9ff;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+.offer-sub-light {
+  color: #e8d5b0;
+  margin-top: 16px;
+  max-width: 340px;
+}
+
+.offer-badge {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  color: #ffd76e;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
+}
+
+.offer-badge-small {
+  font-size: 20px;
+  margin-bottom: 6px;
+}

@@ -1,0 +1,90 @@
+.wish-section {
+  background: #E6E6FA;
+  padding: 60px 40px 80px;
+  min-height: 80vh;
+}
+
+.wish-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.wish-empty {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.wish-shop-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #E8B735;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.wish-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wish-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.wish-card img,
+.wish-emoji {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: #F9F7F2;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.wish-name {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  min-height: 36px;
+}
+
+.wish-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.wish-cart-btn {
+  background: #E8B735;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.wish-remove-btn {
+  background: #ffdddd;
+  color: #d33;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

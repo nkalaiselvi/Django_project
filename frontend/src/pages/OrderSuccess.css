@@ -1,0 +1,62 @@
+.success-section {
+  background: #E6E6FA;
+  padding: 80px 20px;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.success-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 50px 40px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.success-icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.success-card h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.success-card p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.success-order-id,
+.success-total {
+  font-size: 15px !important;
+  color: #1a1a1a !important;
+  margin-top: 16px !important;
+}
+
+.success-note {
+  font-size: 12px !important;
+  color: #888 !important;
+  margin-top: 20px !important;
+}
+
+.success-btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 28px;
+  background: #E8B735;
+  color: #1a1a1a;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}

@@ -1,0 +1,93 @@
+.search-section {
+  background: #E6E6FA;
+  padding: 60px 40px 80px;
+  min-height: 80vh;
+}
+
+.search-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.search-count {
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+.search-empty {
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+  padding: 60px 20px;
+}
+
+.search-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.search-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.search-emoji {
+  width: 100%;
+  height: 180px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  margin-bottom: 12px;
+}
+
+.search-name {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  min-height: 36px;
+}
+
+.search-price {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.search-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.search-heart {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-cart {
+  background: #E8B735;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
