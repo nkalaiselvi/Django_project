@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import Navbar from './components/Navbar';
 import OffersBanner from './components/OffersBanner';
+import ProductGrid from './components/ProductGrid';
 import PromoSection from './components/PromoSection';
 import Testimonials from './components/Testimonials';
 import ThemeSection from './components/ThemeSection';
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <CategoryGrid />
+       <ProductGrid />  
       <ThemeSection />
       <OffersBanner />
       <PromoSection />
