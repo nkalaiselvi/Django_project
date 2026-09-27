@@ -1,4 +1,4 @@
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = 'https://wedding-backend-yhb1.onrender.com/api';
 
 export async function fetchProducts() {
   const res = await fetch(`${API_BASE}/products/?format=json`);
