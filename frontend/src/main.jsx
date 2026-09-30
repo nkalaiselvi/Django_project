@@ -6,7 +6,7 @@ import './index.css';
 import App from './App.jsx';
 import { CartProvider } from './context/cartcontext.jsx';
 import { WishlistProvider } from './context/wishlistcontext.jsx';
-import Cart from './pages/Cart.jsx';
+import Cart from './pages/cart.jsx';
 import CategoryPage from './pages/CategoryPage.jsx';
 import Checkout from './pages/Checkout';
 import OrderSuccess from './pages/OrderSuccess';
