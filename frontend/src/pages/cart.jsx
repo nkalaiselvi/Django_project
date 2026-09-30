@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import { useCart } from '../context/cartcontext';
-import './Cart.css';
+import './cart.css';
 
 function Cart() {
   const { cart, removeFromCart, updateQty, clearCart } = useCart();
