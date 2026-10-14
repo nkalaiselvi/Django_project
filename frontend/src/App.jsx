@@ -1,4 +1,4 @@
-import CategoryGrid from './components/Categorygrid';
+import CategoryGrid from './components/CategoryGrid';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
